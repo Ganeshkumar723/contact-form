@@ -1,0 +1,91 @@
+/* HTML STRUCTURE */
+/* Step -1 - parentContainer */
+/* step -2 - component */
+/* step -3 - componentContainer */
+/* step -4 - row */
+/* step -5 - column */
+/* step -6 - subColumn */
+/* step -7 - contentContainer */
+/* step -8 - content */
+
+/* parent Container - default css style */
+
+
+/* step -2 - component */
+.formTag {
+    /* background:linear-gradient(180deg,rgb(0, 26, 255),rgb(247, 0, 255));   */
+   
+}
+
+/* step -3 - componentContainer */
+.formTagContainer {
+    /* background-color: rgb(91, 226, 12); */
+
+}
+
+/* step -4 - row */
+.formTagBody {
+    /* background-color: rgb(255, 255, 255); */
+
+}
+
+/* step -5 - column */
+.formTagBlock {
+    /* background-color: #fc03c6; */
+   
+}
+
+/* step -6 - subColumn */
+.formTagBox {
+    /* background-color: #dfbd4d; */
+    width: 100%;
+    
+    
+}
+
+/* step -7 - contentContainer */
+h2 {
+  margin-bottom: 20px;
+}
+
+form{
+  background:linear-gradient(180deg,rgb(243, 170, 170),rgb(161, 252, 232));
+  padding: 5rem;
+  border-radius: 5rem;
+}
+form .form-row {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  margin-bottom: 15px;
+  
+}
+
+input, textarea {
+  flex: 1;
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+textarea {
+  resize: vertical;
+  min-height: 100px;
+  width: 100%;
+}
+
+button {
+  padding: 12px 25px;
+  background-color: #007BFF;
+  color: white;
+  font-size: 16px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin: auto;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
